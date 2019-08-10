@@ -1,0 +1,5 @@
+商城版本：ecshop4.0.3
+
+插件版本：1.0
+
+使用说明：把includes文件夹里的pay8.php文件放到项目的../includes/modules/payment目录下，把zh_cn、zh_tw、en_us文件夹中的pay8.php文件分别放到项目的../languages/（不同语言文件夹）/payment目录下，到商城后台点击安装数字货币支付，填写商户id、apikey、signkey后保存。

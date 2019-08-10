@@ -1,0 +1,5 @@
+商城版本：tpshop2.0 v3.5
+
+插件版本：1.0
+
+使用说明：把pay8文件夹放到项目的../plugins/payment目录下，到商城后台点击安装数字货币支付，填写商户id、apikey、signkey后保存。

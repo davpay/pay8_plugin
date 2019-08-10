@@ -1,0 +1,17 @@
+商城版本：dsmall-v3.2.2
+
+插件版本：1.0
+
+使用说明：
+把plugin文件夹中的pay8文件夹放到项目的..\plugins\payments目录下；
+把payment.lang.php文件替换项目的..\application\admin\lang\zh-cn\payment.lang.php文件，或者在项目的该文件内添加代码：
+
+$lang['pay8_merchant_id'] = '商户ID';
+$lang['pay8_merchant_id_desc'] = 'pay8聚合支付的商户ID<a href="http://www.pay8.org/" target="_blank">申请地址</a>';
+$lang['pay8_apikey'] = 'APIKEY';
+$lang['pay8_apikey_desc'] = '';
+$lang['pay8_signkey'] = 'SIGNKEY';
+$lang['pay8_signkey_desc'] = '';
+
+；
+到商城后台点击安装数字货币支付，填写商户id、apikey、signkey后保存。
